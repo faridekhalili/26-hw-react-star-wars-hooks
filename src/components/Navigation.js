@@ -14,4 +14,4 @@ const Navigation = ({changePage}) => {
     );
 };
 
-export default Navigation;
+export default React.memo(Navigation);
